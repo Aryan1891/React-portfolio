@@ -14,16 +14,20 @@ export const Projects = () => {
       title: "BlogFlow",
       description: "SaaS Blogging Platform",
       imgUrl: projImg1,
+      link: "https://blog-flow-aryan.vercel.app"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "VOOM ",
+      description: "Video Conferencing App ",
       imgUrl: projImg2,
+      link: "https://voom-aryan.vercel.app"
+
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Link-Magnet",
+      description: "Personalized Social Link Manager with analytics",
       imgUrl: projImg3,
+      link:"https://link-magnet1.vercel.app"
     },
    
   ];
@@ -54,12 +58,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    
                   </Tab.Content>
                 </Tab.Container>
               </div>}

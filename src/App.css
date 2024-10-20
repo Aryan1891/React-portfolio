@@ -506,6 +506,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0.8;
 }
 .contact form button {
+  border-radius: 50px;
   font-weight: 700;
   color: #000;
   background-color: #fff;
@@ -517,14 +518,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 .contact form button span {
+  border-radius: 50px;
+
   z-index: 1;
   position: relative;
 }
 .contact form button:hover {
+  border-radius: 50px;
+
   color: #fff;
 }
 .contact form button::before {
   content: "";
+  border-radius: 50px;
   background: #121212;
   width: 0;
   height: 100%;
@@ -535,6 +541,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 .contact form button:hover::before {
+  border-radius: 50px;
+
   width: 100%;
 }
 
